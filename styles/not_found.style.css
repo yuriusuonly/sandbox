@@ -1,0 +1,47 @@
+.not-found-view {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.not-found-view__code {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #e2e8f0;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.not-found-view__title {
+  font-size: 1.75rem;
+  color: #0f172a;
+  margin-bottom: 0.75rem;
+}
+
+.not-found-view__message {
+  color: #64748b;
+  max-width: 450px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.not-found-view__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.not-found-view__btn:hover {
+  background: #1d4ed8;
+}
