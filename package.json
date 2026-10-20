@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "type": "module",
+  "os": [
+    "linux"
+  ],
+  "engines": {
+    "bun": "1.4.3"
+  },
+  "scripts": {
+    "serve": "bun src/index.js",
+    "test": "bun test"
+  }
+}
