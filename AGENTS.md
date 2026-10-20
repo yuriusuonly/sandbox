@@ -5,7 +5,7 @@ Personal sandbox app built with **Bun 1.4.3** (pinned in `package.json` `engines
 ## Commands
 
 - Start the server: `bun run serve` (runs `bun src/index.js`; Bun auto-loads `.env`)
-- Test: `bun test` — tests live as `*.test.js` alongside source (see `src/system/uri.test.js`).
+- Test: `bun test` — tests live under the root `test/` directory as `*.test.js` and import source via `../src/...` (see `test/uri.test.js`).
 - There is no build, lint, or typecheck step.
 
 ## Environment

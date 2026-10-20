@@ -1,5 +1,5 @@
 import {test, expect} from "bun:test";
-import * as uri from "./uri.js";
+import * as uri from "../src/system/uri.js";
 
 test("http parses location into parts", () => {
   const parsed = uri.http("http://localhost:3000/robots.txt?x=1&y=2");
